@@ -10,7 +10,6 @@ def translate string
         else
             i = 0
             while not vowels.include? element[i]
-
                 i += 1
             end
             if element[i] == 'u' && element[i-1] == 'q'
